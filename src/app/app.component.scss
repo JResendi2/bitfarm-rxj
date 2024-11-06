@@ -1,0 +1,30 @@
+.content{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.messages{
+  display: flex;
+  width: 100%;
+  max-width: 768px;
+  border: solid gray 1px;
+  border-radius: 8px;
+  padding: 0.2rem 1rem;
+
+  .messages-warning, .messages-error{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+.example-full-width .mat-mdc-text-field-wrapper{
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.example-full-width .mat-form-field-outline{
+  border-color: #ff4081 !important; /* Color del borde */;
+}
